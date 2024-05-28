@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<!-- <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -32,10 +32,10 @@ An application to view and manage departments, roles, and employees in your comp
 </div>
 
 </br>
-</br>
+</br> -->
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<!-- <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -61,10 +61,10 @@ An application to view and manage departments, roles, and employees in your comp
 </details>
 
 </br>
-</br>
+</br> -->
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ## About The Project
 
 - This application is geared towards anybody looking for an easy-to-use employee database.
 
@@ -82,10 +82,10 @@ An application to view and manage departments, roles, and employees in your comp
 * ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
-## Getting Started
+<!-- ## Getting Started
 
 <p align="center"><i><strong>✨ Everything you need to know ✨</strong></i></p>
 
@@ -156,12 +156,12 @@ _To get a local copy up and running follow these simple example steps:_
 </div>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- ## Roadmap
 
 
 
@@ -173,7 +173,7 @@ _To get a local copy up and running follow these simple example steps:_
 <img src="./assets/js-roadmap.png">
 <div align="right">
   <p><i>This was my roadmap to completing all of the acceptance criteria</i></p>
-</div>
+</div> -->
 <!-- GIVEN a command-line application that accepts user input
 WHEN I start the application
 THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
@@ -221,17 +221,17 @@ See the [open issues](https://github.com/beckpull/employee-tracker/issues) for a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+<!-- ## Contact
 
 **Rebecca Feltman** - [Email me](mailto:beckpull@icloud.com) - or check me out on [GitHub!](https://github.com/beckpull) 
 
 >Repository Link: [https://github.com/beckpull/employee-tracker](https://github.com/beckpull/employee-tracker)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ## Acknowledgments
 
 * This README file template was created by [@othneildrew](https://github.com/othneildrew) - the original can be found [here](https://github.com/othneildrew/Best-README-Template)
 * Huge thank you to my tutor, [Dennis Itua](https://github.com/Dennis-The14th-web) and to my friend [@NathaliaReyes](https://github.com/nathaliareyes) for all of your help and support through this and every project ✨
@@ -240,7 +240,7 @@ See the [open issues](https://github.com/beckpull/employee-tracker/issues) for a
 > I utilized several articles from sources such as (but not limited to) Stack Overflow, W3Schools, and MDN Web Docs **as references** for the javascript code attached. 
 >
 **All of the utilized information has been altered in order to fit this project. This repository contains _solely_ my own work.** 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
