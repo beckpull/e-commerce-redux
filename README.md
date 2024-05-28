@@ -117,10 +117,10 @@ _To get a local copy up and running follow these simple example steps:_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage -->
  
 <!-- Link to video demo -->
- * **Click [here](https://drive.google.com/file/d/1fIfTcOII_ZGxZxVqTUCiBslrCZgGnP82/view) or scan the below QR code to watch a demo video on how to use this application.**
+ <!-- * **Click [here](https://drive.google.com/file/d/1fIfTcOII_ZGxZxVqTUCiBslrCZgGnP82/view) or scan the below QR code to watch a demo video on how to use this application.**
  </br></br>
 <div align="center">
  <a href="https://github.com/beckpull/employee-tracker">
@@ -156,7 +156,7 @@ _To get a local copy up and running follow these simple example steps:_
 </div>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
 
 
 
