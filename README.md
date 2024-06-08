@@ -155,38 +155,47 @@ _To get a local copy up and running follow these simple example steps:_
 ## Usage
 
 <!-- Link to deployed site -->
-
 - **Click [here](https://e-commerce-redux-r7za.onrender.com) or scan the below QR code to watch a demo video on how to use this application.**
+
 </br></br>
 <div align="center">
  <a href="">
     <img src="./readme-imgs/qr.png" alt="QR code to deployed site" width="200">
   </a> 
+  </br>
+  </br>
+  </br>
+  </br>
+ <a href="https://e-commerce-redux-r7za.onrender.com">
+   <p>This is what users can expect upon viewing the webpage:</p>
+   </br>
+   </br>
+    <img src="./readme-imgs/main.png" alt="Welcome screen labeled 'Employee Manager'">
+  </a>
+  </br>
+  </br>
+  <a href="https://e-commerce-redux-r7za.onrender.com">
+    <p>When adding each item to your cart:</p>
+    </br>
+    <img src="./readme-imgs/cart.png" alt="" width="250">
+  </a>
+  </br>
+  </br>
+    <a href="https://e-commerce-redux-r7za.onrender.com">
+    <p>The following are the example outputs upon logging in & checking out:</p>
+    </br>
+    <img src="./readme-imgs/pay.png" alt="" width="420">
+    <img src="./readme-imgs/paid.png" alt="" width="439">
+  </a>
+
   <!-- <a href="https://github.com/beckpull/e-commerce-redux">
-   <p>This is what users can expect upon installing/running my app:</p>
-    <img src="./assets/pic1.png" alt="Welcome screen labeled 'Employee Manager'" width="700">
-  </a>
-  <p>The following are the example outputs:</p>
-  <a href="https://github.com/beckpull/e-commerce-redux">
-    <p>View All Employees:</p>
-    <img src="./assets/viewAllEmps.png" alt="" width="700">
-  </a>
-    <a href="https://github.com/beckpull/e-commerce-redux">
-    <p>View All Roles:</p>
-    <img src="./assets/viewAllRoles.png" alt="" width="600">
-  </a>
-    <a href="https://github.com/beckpull/e-commerce-redux">
-    <p>View All Departments:</p>
-    <img src="./assets/viewDept.png" alt="" width="600">
-  </a>
-  <a href="https://github.com/beckpull/e-commerce-redux">
     <p>View Employees by Department (from my 'Research and Development' department)</p>
     <img src="./assets/viewEmpByDept.png" alt="" width="600">
   </a>
     <a href="https://github.com/beckpull/e-commerce-redux">
     <p>View Utilized Budget by Department (from my 'Research and Development' department)</p>
     <img src="./assets/deptBudget.png" alt="" width="700">
-  </a>
+  </a> -->
   <p align="right"><i>#</i></p>
 
 </div>
