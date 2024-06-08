@@ -60,9 +60,9 @@ Welcome to the E-Commerce Store, a full-featured online shopping platform built 
 
 <!-- ABOUT THE PROJECT -->
 
-### About the Project
+## About the Project
 
-## Features
+### Features
 
 - **User Authentication:** Secure user registration and login using JWT (JSON Web Tokens).
 - **Product Management:** Browse, search, and filter products by category.
@@ -70,7 +70,7 @@ Welcome to the E-Commerce Store, a full-featured online shopping platform built 
 - **Order Management:** Place orders and view order history.
 - **Payment Processing:** Secure payment processing with Stripe.
 
-## Technologies Used
+### Technologies Used
 
 - **Frontend:**
 
