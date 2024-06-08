@@ -14,8 +14,7 @@
 <h1 align="center">Simple E-Store using Redux & Stripe</h1>
 
   <p align="center">
-An application to view and manage departments, roles, and employees in your company so that you can organize and plan your business
-    <br />
+Welcome to the E-Commerce Store, a full-featured online shopping platform built with the MERN stack. This application leverages MongoDB for data storage, Express and Node.js for the backend server, React for the frontend, Redux for state management, and Stripe for payment processing.    <br />
     <a href="https://github.com/beckpull/e-commerce-redux"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -62,8 +61,6 @@ An application to view and manage departments, roles, and employees in your comp
 <!-- ABOUT THE PROJECT -->
 
 ### About the Project
-
-Welcome to the E-Commerce Store, a full-featured online shopping platform built with the MERN stack. This application leverages MongoDB for data storage, Express and Node.js for the backend server, React for the frontend, Redux for state management, and Stripe for payment processing.
 
 ## Features
 
