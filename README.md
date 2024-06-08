@@ -269,7 +269,7 @@ See the [open issues](https://github.com/beckpull/e-commerce-redux/issues) for a
 
 > I utilized several articles from sources such as (but not limited to) Stack Overflow, W3Schools, and MDN Web Docs **as references** for the javascript code attached.
 >
-> **All of the utilized information has been altered in order to fit this project. This repository contains _solely_ my own work.**
+> **All of the utilized information has been altered in order to fit this project. Outside of the Denver University starter code, this repository contains _solely_ my own work.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
