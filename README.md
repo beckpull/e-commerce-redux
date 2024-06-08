@@ -292,5 +292,3 @@ See the [open issues](https://github.com/beckpull/e-commerce-redux/issues) for a
 [linkedin-url]: https://linkedin.com/in/beckpull/
 [stackoverflow-shield]: https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white
 [jest-shield]: https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white
-[inquirer-shield]: https://img.shields.io/badge/dependency-inquirer-black
-[inquirer-url]: https://www.npmjs.com/package/inquirer
