@@ -4,7 +4,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<!-- [![MIT License][license-shield]][license-url] -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 </br>
 
@@ -20,7 +20,7 @@ An application to view and manage departments, roles, and employees in your comp
     <a href="https://github.com/beckpull/e-commerce-redux"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="">Go to website</a>
+    <a href="https://e-commerce-redux-r7za.onrender.com">Go to website</a>
     ·
     <a href="https://github.com/beckpull/e-commerce-redux/issues">Report Bug</a>
     ·
@@ -148,7 +148,7 @@ _To get a local copy up and running follow these simple example steps:_
 
 <!-- Link to deployed site -->
 
-- **Click [here]() or scan the below QR code to watch a demo video on how to use this application.**
+- **Click [here](https://e-commerce-redux-r7za.onrender.com) or scan the below QR code to watch a demo video on how to use this application.**
 </br></br>
 <div align="center">
  <a href="">
