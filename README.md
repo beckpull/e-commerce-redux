@@ -188,14 +188,6 @@ _To get a local copy up and running follow these simple example steps:_
     <img src="./readme-imgs/paid.png" alt="" width="439">
   </a>
 
-  <!-- <a href="https://github.com/beckpull/e-commerce-redux">
-    <p>View Employees by Department (from my 'Research and Development' department)</p>
-    <img src="./assets/viewEmpByDept.png" alt="" width="600">
-  </a>
-    <a href="https://github.com/beckpull/e-commerce-redux">
-    <p>View Utilized Budget by Department (from my 'Research and Development' department)</p>
-    <img src="./assets/deptBudget.png" alt="" width="700">
-  </a> -->
   <p align="right"><i>#</i></p>
 
 </div>
