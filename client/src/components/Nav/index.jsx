@@ -1,21 +1,20 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+//import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Auth from '../../utils/auth';
-import { LOGOUT } from '../../utils/actions'; // Assuming you have defined this action
-import { logoutUser } from '../../utils/authActions'; // Assuming you have an action creator
+//import { LOGOUT } from '../../utils/actions'; // Assuming you have defined this action
+//import { logoutUser } from '../../utils/authActions'; // Assuming you have an action creator
 
 function Nav() {
-  const dispatch = useDispatch();
-  const isLoggedIn = useSelector((state) => state.auth.loggedIn); // Update according to your auth state structure
-
-  function handleLogout() {
-    Auth.logout();
-    dispatch(logoutUser());
-  }
+  //const dispatch = useDispatch();
+  // const isLoggedIn = useSelector((state) => state.auth.loggedIn); 
+  // function handleLogout() {
+  //   Auth.logout();
+  //   // dispatch(logoutUser());
+  // }
 
   function showNavigation() {
-    if (isLoggedIn) {
+    if (Auth.loggedIn()) {
       return (
         <ul className="flex-row">
           <li className="mx-1">
@@ -24,7 +23,7 @@ function Nav() {
             </Link>
           </li>
           <li className="mx-1">
-            <a href="/" onClick={handleLogout}>
+            <a href="/" onClick={()=>Auth.logout()}>
               Logout
             </a>
           </li>

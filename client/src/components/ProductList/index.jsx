@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { UPDATE_PRODUCTS } from '../../actions/productActions'; // Import your Redux actions
+import { UPDATE_PRODUCTS } from '../../utils/actions';
 import ProductItem from '../ProductItem';
 import { useQuery } from '@apollo/client';
 import { QUERY_PRODUCTS } from '../../utils/queries';
@@ -10,19 +10,27 @@ import spinner from '../../assets/spinner.gif';
 
 function ProductList() {
   const dispatch = useDispatch();
-  const { currentCategory, products } = useSelector((state) => state.product); // Assuming you have a slice named 'product'
+
+  const currentCategory = useSelector((state) => state.currentCategory);
+  const products = useSelector((state) => state.products);
 
   const { loading, data } = useQuery(QUERY_PRODUCTS);
 
   useEffect(() => {
     if (data) {
-      dispatch(UPDATE_PRODUCTS(data.products));
+      dispatch({
+        type: UPDATE_PRODUCTS,
+        products: data.products
+      });
       data.products.forEach((product) => {
         idbPromise('products', 'put', product);
       });
     } else if (!loading) {
       idbPromise('products', 'get').then((products) => {
-        dispatch(UPDATE_PRODUCTS(products));
+        dispatch({
+          type: UPDATE_PRODUCTS,
+          products: products
+        });
       });
     }
   }, [data, loading, dispatch]);

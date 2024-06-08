@@ -1,4 +1,4 @@
-<!-- <a name="readme-top"></a>
+<a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -7,35 +7,32 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 </br>
-[![dependency - inquirer][inquirer-shield]][inquirer-url]
 
 <br />
 <div align="center">
-  <a href="https://github.com/beckpull/employee-tracker">
+  <a href="https://github.com/beckpull/e-commerce-redux">
 
-
-
-<h1 align="center">Employee Tracker</h1>
+<h1 align="center">Simple E-Store using Redux & Stripe</h1>
 
   <p align="center">
 An application to view and manage departments, roles, and employees in your company so that you can organize and plan your business
     <br />
-    <a href="https://github.com/beckpull/employee-tracker"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/beckpull/e-commerce-redux"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://drive.google.com/file/d/1fIfTcOII_ZGxZxVqTUCiBslrCZgGnP82/view">View Demo</a>
+    <a href="">Go to website</a>
     ·
-    <a href="https://github.com/beckpull/employee-tracker/issues">Report Bug</a>
+    <a href="https://github.com/beckpull/e-commerce-redux/issues">Report Bug</a>
     ·
-    <a href="https://github.com/beckpull/employee-tracker/issues">Request Feature</a>
+    <a href="https://github.com/beckpull/e-commerce-redux/issues">Request Feature</a>
   </p>
 </div>
 
 </br>
-</br> -->
+</br>
 
 <!-- TABLE OF CONTENTS -->
-<!-- <details>
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -61,40 +58,69 @@ An application to view and manage departments, roles, and employees in your comp
 </details>
 
 </br>
-</br> -->
+</br>
 
 <!-- ABOUT THE PROJECT -->
-<!-- ## About The Project
 
-- This application is geared towards anybody looking for an easy-to-use employee database.
+### About the Project
 
-- The goal of this application is for companies to be able to easily track employees, roles and departments of their business in order to simplify one of the more complicated parts of running a business. 
+Welcome to the E-Commerce Store, a full-featured online shopping platform built with the MERN stack. This application leverages MongoDB for data storage, Express and Node.js for the backend server, React for the frontend, Redux for state management, and Stripe for payment processing.
+
+## Features
+
+- **User Authentication:** Secure user registration and login using JWT (JSON Web Tokens).
+- **Product Management:** Browse, search, and filter products by category.
+- **Shopping Cart:** Add and remove products from the shopping cart.
+- **Order Management:** Place orders and view order history.
+- **Payment Processing:** Secure payment processing with Stripe.
+
+## Technologies Used
+
+- **Frontend:**
+
+  - React
+  - Redux
+  - React Router
+  - Axios
+  - Bootstrap
+
+- **Backend:**
+
+  - Node.js
+  - Express
+  - MongoDB
+  - Mongoose
+  - JWT for authentication
+  - Stripe for payment processing
+
+- **Other:**
+  - dotenv for environment variables
+  - bcryptjs for password hashing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-* ![NodeJS]
-* ![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-* ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<!-- * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) -->
 
+- ![NodeJS]
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-<!-- ## Getting Started
+
+## Getting Started
 
 <p align="center"><i><strong>✨ Everything you need to know ✨</strong></i></p>
 
 ### Prerequisites
 
-_This application has an Inquirer.js dependency, to install globally on your machine type this into your Terminal / Git Bash:_
-  ```sh
-  npm install -g inquirer@8.2.4
-  ```
+Make sure you have the following installed on your machine:
+
+- Node.js
+- npm or yarn
+- MongoDB
 
 ### Installation
 
@@ -102,52 +128,54 @@ _To get a local copy up and running follow these simple example steps:_
 
 1. Clone the repo
    ```sh
-   HTTP: git clone https://github.com/beckpull/employee-tracker.git
-   SSH: git clone git@github.com:beckpull/employee-tracker.git
+   HTTP: git clone https://github.com/beckpull/e-commerce-redux.git
+   SSH: git clone git@github.com:beckpull/e-commerce-redux.git
    ```
 2. Install all necessary NPM packages
    ```sh
    npm i
    ```
-3. Node `server.js`
+3. Run app
    ```js
-   node server.js
+   npm run develop
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-<!-- ## Usage -->
- 
-<!-- Link to video demo -->
- <!-- * **Click [here](https://drive.google.com/file/d/1fIfTcOII_ZGxZxVqTUCiBslrCZgGnP82/view) or scan the below QR code to watch a demo video on how to use this application.**
- </br></br>
+
+## Usage
+
+<!-- Link to deployed site -->
+
+- **Click [here]() or scan the below QR code to watch a demo video on how to use this application.**
+</br></br>
 <div align="center">
- <a href="https://github.com/beckpull/employee-tracker">
-    <img src="./assets/qr.png" alt="Welcome screen labeled 'Employee Manager'" width="200">
+ <a href="">
+    <img src="./readme-imgs/qr.png" alt="QR code to deployed site" width="200">
   </a> 
-  <a href="https://github.com/beckpull/employee-tracker">
+  <!-- <a href="https://github.com/beckpull/e-commerce-redux">
    <p>This is what users can expect upon installing/running my app:</p>
     <img src="./assets/pic1.png" alt="Welcome screen labeled 'Employee Manager'" width="700">
   </a>
   <p>The following are the example outputs:</p>
-  <a href="https://github.com/beckpull/employee-tracker">
+  <a href="https://github.com/beckpull/e-commerce-redux">
     <p>View All Employees:</p>
     <img src="./assets/viewAllEmps.png" alt="" width="700">
   </a>
-    <a href="https://github.com/beckpull/employee-tracker">
+    <a href="https://github.com/beckpull/e-commerce-redux">
     <p>View All Roles:</p>
     <img src="./assets/viewAllRoles.png" alt="" width="600">
   </a>
-    <a href="https://github.com/beckpull/employee-tracker">
+    <a href="https://github.com/beckpull/e-commerce-redux">
     <p>View All Departments:</p>
     <img src="./assets/viewDept.png" alt="" width="600">
   </a>
-  <a href="https://github.com/beckpull/employee-tracker">
+  <a href="https://github.com/beckpull/e-commerce-redux">
     <p>View Employees by Department (from my 'Research and Development' department)</p>
     <img src="./assets/viewEmpByDept.png" alt="" width="600">
   </a>
-    <a href="https://github.com/beckpull/employee-tracker">
+    <a href="https://github.com/beckpull/e-commerce-redux">
     <p>View Utilized Budget by Department (from my 'Research and Development' department)</p>
     <img src="./assets/deptBudget.png" alt="" width="700">
   </a>
@@ -155,15 +183,10 @@ _To get a local copy up and running follow these simple example steps:_
 
 </div>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
-
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 <!-- ## Roadmap
-
-
 
 <img src="./assets/schema-roadmap.png">
 <div align="right">
@@ -174,27 +197,27 @@ _To get a local copy up and running follow these simple example steps:_
 <div align="right">
   <p><i>This was my roadmap to completing all of the acceptance criteria</i></p>
 </div> -->
-<!-- GIVEN a command-line application that accepts user input
-WHEN I start the application
-THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
-WHEN I choose to view all departments
-THEN I am presented with a formatted table showing department names and department ids
-WHEN I choose to view all roles
-THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
-WHEN I choose to view all employees
-THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
-WHEN I choose to add a department
-THEN I am prompted to enter the name of the department and that department is added to the database
-WHEN I choose to add a role
-THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
-WHEN I choose to add an employee
-THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
-WHEN I choose to update an employee role
-THEN I am prompted to select an employee to update and their new role and this information is updated in the database  -->
+
+<!-- AS a senior engineer working on an e-commerce platform
+I WANT my platform to use Redux to manage global state instead of the Context API
+SO THAT my website's state management is taken out of the React ecosystem -->
+
+<!-- GIVEN an e-commerce platform that uses Redux to manage global state
+WHEN I review the app’s store
+THEN I find that the app uses a Redux store instead of the Context API
+WHEN I review the way the React front end accesses the store
+THEN I find that the app uses a Redux provider
+WHEN I review the way the app determines changes to its global state
+THEN I find that the app passes reducers to a Redux store instead of using the Context API
+WHEN I review the way the app extracts state data from the store
+THEN I find that the app uses Redux instead of the Context API
+WHEN I review the way the app dispatches actions
+THEN I find that the app uses Redux instead of the Context APIe  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**!
@@ -208,11 +231,12 @@ Don't forget to give the project a star! Thanks again!_
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
-See the [open issues](https://github.com/beckpull/employee-tracker/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/beckpull/e-commerce-redux/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
+
 ## License
 
 <p align='center'>Distributed under the MIT License. See `LICENSE.txt` for more information.</p>
@@ -221,45 +245,48 @@ See the [open issues](https://github.com/beckpull/employee-tracker/issues) for a
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-<!-- ## Contact
 
-**Rebecca Feltman** - [Email me](mailto:beckpull@icloud.com) - or check me out on [GitHub!](https://github.com/beckpull) 
+## Contact
 
->Repository Link: [https://github.com/beckpull/employee-tracker](https://github.com/beckpull/employee-tracker)
+**Rebecca Feltman** - [Email me](mailto:beckpull@icloud.com) - or check me out on [GitHub!](https://github.com/beckpull)
 
+> Repository Link: [https://github.com/beckpull/e-commerce-redux](https://github.com/beckpull/e-commerce-redux)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-<!-- ## Acknowledgments
 
-* This README file template was created by [@othneildrew](https://github.com/othneildrew) - the original can be found [here](https://github.com/othneildrew/Best-README-Template)
-* Huge thank you to my tutor, [Dennis Itua](https://github.com/Dennis-The14th-web) and to my friend [@NathaliaReyes](https://github.com/nathaliareyes) for all of your help and support through this and every project ✨
+## Acknowledgments
 
-#### Disclaimer: 
-> I utilized several articles from sources such as (but not limited to) Stack Overflow, W3Schools, and MDN Web Docs **as references** for the javascript code attached. 
+- This README file template was created by [@othneildrew](https://github.com/othneildrew) - the original can be found [here](https://github.com/othneildrew/Best-README-Template)
+- Huge thank you to my tutor, [Juan Delgado](https://www.linkedin.com/in/jj-delgado/) for all of your help throughout this project ✨
+
+#### Disclaimer:
+
+> I utilized several articles from sources such as (but not limited to) Stack Overflow, W3Schools, and MDN Web Docs **as references** for the javascript code attached.
 >
-**All of the utilized information has been altered in order to fit this project. This repository contains _solely_ my own work.** 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+> **All of the utilized information has been altered in order to fit this project. This repository contains _solely_ my own work.**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/beckpull/employee-tracker.svg?style=for-the-badge
-[contributors-url]: https://github.com/beckpull/employee-tracker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/beckpull/employee-tracker.svg?style=for-the-badge
-[forks-url]: https://github.com/beckpull/employee-tracker/network/members
-[stars-shield]: https://img.shields.io/github/stars/beckpull/employee-tracker.svg?style=for-the-badge
-[stars-url]: https://github.com/beckpull/employee-tracker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/beckpull/employee-tracker.svg?style=for-the-badge
-[issues-url]: https://github.com/beckpull/employee-tracker/issues
-[license-shield]: https://img.shields.io/github/license/beckpull/employee-tracker.svg?style=for-the-badge
-[license-url]: https://github.com/beckpull/employee-tracker/blob/main/LICENSE
+
+[contributors-shield]: https://img.shields.io/github/contributors/beckpull/e-commerce-redux.svg?style=for-the-badge
+[contributors-url]: https://github.com/beckpull/e-commerce-redux/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/beckpull/e-commerce-redux.svg?style=for-the-badge
+[forks-url]: https://github.com/beckpull/e-commerce-redux/network/members
+[stars-shield]: https://img.shields.io/github/stars/beckpull/e-commerce-redux.svg?style=for-the-badge
+[stars-url]: https://github.com/beckpull/e-commerce-redux/stargazers
+[issues-shield]: https://img.shields.io/github/issues/beckpull/e-commerce-redux.svg?style=for-the-badge
+[issues-url]: https://github.com/beckpull/e-commerce-redux/issues
+[license-shield]: https://img.shields.io/github/license/beckpull/e-commerce-redux.svg?style=for-the-badge
+[license-url]: https://github.com/beckpull/e-commerce-redux/blob/main/LICENSE
 [product-screenshot]: images/screenshot.png
 [NodeJS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/en
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
 [Bulma]: https://img.shields.io/badge/bulma-00D0B1?style=for-the-badge&logo=bulma&logoColor=white
 [linkedin-shield]: https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://linkedin.com/in/beckpull/

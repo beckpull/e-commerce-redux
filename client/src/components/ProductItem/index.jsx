@@ -6,20 +6,28 @@ import { idbPromise } from "../../utils/helpers";
 
 function ProductItem({ item }) {
   const dispatch = useDispatch();
-  const { cart } = useSelector((state) => state.cart);
+  const cart = useSelector((state) => state.cart);
+  // const { cart } = useSelector((state) => state);
 
   const { image, name, _id, price, quantity } = item;
 
   const addToCartHandler = () => {
     const itemInCart = cart.find((cartItem) => cartItem._id === _id);
     if (itemInCart) {
-      dispatch(UPDATE_CART_QUANTITY(_id, parseInt(itemInCart.purchaseQuantity) + 1));
+      dispatch({
+        type: UPDATE_CART_QUANTITY,
+        _id: _id,
+        purchaseQuantity: parseInt(itemInCart.purchaseQuantity) + 1
+    });
       idbPromise('cart', 'put', {
         ...itemInCart,
         purchaseQuantity: parseInt(itemInCart.purchaseQuantity) + 1,
       });
     } else {
-      dispatch(ADD_TO_CART({ ...item, purchaseQuantity: 1 }));
+      dispatch({
+        type: ADD_TO_CART,
+        product:  {...item, purchaseQuantity: 1}
+      });
       idbPromise('cart', 'put', { ...item, purchaseQuantity: 1 });
     }
   };

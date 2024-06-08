@@ -18,7 +18,7 @@ const initState = {
   currentCategory: '',
 }
 
-export const reducer = (state = initState, action) => {
+const reducer = (state = initState, action) => {
   switch (action.type) {
     // Updates the list of products in the store
     case UPDATE_PRODUCTS:
@@ -101,3 +101,5 @@ export const reducer = (state = initState, action) => {
       return state;
   }
 };
+
+export default reducer;

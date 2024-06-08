@@ -1,4 +1,3 @@
-// src/components/Cart/index.js
 import { useEffect } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import { useLazyQuery } from '@apollo/client';
@@ -7,7 +6,7 @@ import { idbPromise } from '../../utils/helpers';
 import CartItem from '../CartItem';
 import Auth from '../../utils/auth';
 import { useSelector, useDispatch } from 'react-redux';
-import { toggleCart, addMultipleToCart } from '../../redux/actions';
+import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
@@ -30,7 +29,10 @@ const Cart = () => {
   useEffect(() => {
     async function getCart() {
       const cart = await idbPromise('cart', 'get');
-      dispatch(addMultipleToCart(cart));
+      dispatch({
+        type: ADD_MULTIPLE_TO_CART,
+        products: [...cart]
+      });
     }
 
     if (!cart.length) {
@@ -39,7 +41,9 @@ const Cart = () => {
   }, [cart.length, dispatch]);
 
   function toggleCartHandler() {
-    dispatch(toggleCart());
+    dispatch({
+      type: TOGGLE_CART
+    });
   }
 
   function calculateTotal() {
@@ -89,11 +93,7 @@ const Cart = () => {
           <div className="flex-row space-between">
             <strong>Total: ${calculateTotal()}</strong>
 
-            {Auth.loggedIn() ? (
-              <button onClick={submitCheckout}>Checkout</button>
-            ) : (
-              <span>(log in to check out)</span>
-            )}
+            {Auth.loggedIn() ? <button onClick={submitCheckout}>Checkout</button> : <span>log in to check out</span>}
           </div>
         </div>
       ) : (

@@ -1,7 +1,7 @@
 // src/components/CartItem/index.js
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from '../../redux/actions';
+import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from '../../utils/actions';
 import { idbPromise } from '../../utils/helpers';
 
 const CartItem = ({ item }) => {
