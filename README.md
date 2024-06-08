@@ -179,8 +179,8 @@ _To get a local copy up and running follow these simple example steps:_
     <a href="https://e-commerce-redux-r7za.onrender.com">
     <p>The following are the example outputs upon logging in & checking out:</p>
     </br>
-    <img src="./readme-imgs/pay.png" alt="" width="420">
-    <img src="./readme-imgs/paid.png" alt="" width="439">
+    <img src="./readme-imgs/pay.png" alt="" width="316">
+    <img src="./readme-imgs/paid.png" alt="" width="330">
   </a>
 
   <p align="right"><i>#</i></p>
